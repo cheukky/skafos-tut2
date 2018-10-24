@@ -1,0 +1,11 @@
+project_token: 86edd9953278dfab8295af2e
+name: skafos-tut2
+jobs:
+  - job_id: 23fb9640-73a3-4585-8256-9e16df2bad2d
+    language: python
+    name: Main
+    entrypoint: main.py
+    resources:
+      limits:
+        cpu: 6
+        memory: 2Gi
