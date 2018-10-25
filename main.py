@@ -14,7 +14,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 
 
-# ## Data Prep
+# ## Data Prepasdf
 # Specify what data to use from quandl
 # Here we grab bitcoin prices & market data
 COIN = "BCHARTS/BITSTAMPUSD" 
